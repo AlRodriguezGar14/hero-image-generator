@@ -1,0 +1,3 @@
+/Users/albertorodriguez/projects/get_screenshot/CMakeFiles/getScreenshot.dir
+/Users/albertorodriguez/projects/get_screenshot/CMakeFiles/edit_cache.dir
+/Users/albertorodriguez/projects/get_screenshot/CMakeFiles/rebuild_cache.dir

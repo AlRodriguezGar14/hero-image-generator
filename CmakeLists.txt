@@ -1,0 +1,9 @@
+set(CMAKE_CXX_COMPILER c++)
+set(CMAKE_CXX_STANDARD 17)
+project(getScreenshot)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -Wall -Wextra -Werror -pedantic") 
+
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(getScreenshot main.cpp)
+target_link_libraries(getScreenshot ${OpenCV_LIBS})
